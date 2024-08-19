@@ -1,0 +1,30 @@
+// Reiswar
+@font-face {
+  font-family: "Reiswar";   /*Can be any text*/
+  src: local("Reiswar"),
+    url("./fonts/Reiswar.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Starife";   /*Can be any text*/
+  src: local("Starife"),
+    url("./fonts/StarifeDemo.ttf") format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background: linear-gradient(to right, #0f2027, #1b3037, #1a3039); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #292929;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

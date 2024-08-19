@@ -1,0 +1,50 @@
+.main{
+    
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    .toppart{
+        margin-top: 95px;
+        font-family: 'Reiswar';
+        font-size: 118px;
+        color: white;
+    }
+
+    .mainContent{
+        display: flex;
+        // width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        .card{
+            height: 250px;
+            width: 450px;
+            background-color: #373737;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .cardTitle{
+
+                width: 300px;
+                p{
+                    font-family: "Starife";
+                    font-size: 80px;
+                    margin: auto;
+                    padding: 20px;
+                    text-align: center;
+                }
+                
+            }
+            .cardContent{
+                font-family: 'Josefin Sans', sans-serif;
+                text-align: justify;
+                padding: 20px;
+                margin: auto;
+            }
+            
+            
+        }
+    }
+}
